@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics and Telecommunication Blogs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Electronics & Telecommunication Blogs</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <h2>Welcome to the Blog Hub for Electronics & Telecommunications Students!</h2>
+            <p>Explore insightful articles on various topics in Electronics and Telecommunications, curated to help students stay updated.</p>
+        </section>
+
+        <section id="about" class="info">
+            <h2>About the Blog</h2>
+            <p>This blog is a hub for electronics and telecommunications students, featuring articles and tutorials on emerging trends, technologies, and important concepts in the field.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Latest Blog Posts</h2>
+
+            <div class="filter">
+                <label for="topicFilter">Filter by Topic:</label>
+                <select id="topicFilter">
+                    <option value="all">All Topics</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="telecom">Telecommunications</option>
+                    <option value="iot">IoT</option>
+                    <option value="signals">Signal Processing</option>
+                </select>
+            </div>
+
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="post electronics" data-topic="electronics">
+                    <h3>Understanding Digital Circuits</h3>
+                    <p class="post-date">Posted on: September 10, 2025</p>
+                    <p class="post-excerpt">An introductory guide to digital circuits and their importance in modern electronics...</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="post telecom" data-topic="telecom">
+                    <h3>5G Networks: The Future of Telecommunication</h3>
+                    <p class="post-date">Posted on: September 12, 2025</p>
+                    <p class="post-excerpt">Exploring the advancements in 5G technology and how it will revolutionize telecommunication...</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="post iot" data-topic="iot">
+                    <h3>The Rise of IoT in Smart Cities</h3>
+                    <p class="post-date">Posted on: September 15, 2025</p>
+                    <p class="post-excerpt">How the Internet of Things is transforming the way we live, work, and interact with our environment...</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="post signals" data-topic="signals">
+                    <h3>Introduction to Signal Processing</h3>
+                    <p class="post-date">Posted on: September 18, 2025</p>
+                    <p class="post-excerpt">An introduction to signal processing and its application in communications and electronics...</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <!-- More posts can be added here -->
+            </div>
+        </section>
+
+        <section id="contact" class="info">
+            <h2>Contact Us</h2>
+            <p>Have any questions or want to contribute to the blog? Feel free to reach out to us!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Electronics & Telecommunication Blogs. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
